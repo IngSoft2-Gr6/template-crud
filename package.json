@@ -1,0 +1,32 @@
+{
+  "name": "example_git",
+  "version": "0.0.0",
+  "description": "## From scratch",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngSoft2-Gr6/template-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngSoft2-Gr6/template-crud/issues"
+  },
+  "homepage": "https://github.com/IngSoft2-Gr6/template-crud#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.25",
+    "@types/pg": "^8.6.5",
+    "@types/sequelize": "^4.28.11"
+  }
+}
